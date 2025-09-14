@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 20px 30px;
+  
+}
+
+.image{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.image img{
+  width: 150px;
+}
+
+h2{
+  color: rgb(50, 123, 219);
+  margin-top: 20px;
+  border-top: 2px dotted black;
+  border-bottom: 2px dotted black;
+  text-align: center;
+}
+
+.result{
+  border: 2px dotted rgb(57, 116, 192);
+  color :rgb(43, 110, 198);
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  color: rgb(64, 64, 64);
+}
+
+.input-box select{
+  height: 30px;
+  font-size: 15px;
+}
+
+input{
+  height: 27px;
+  font-size: 15px;
+  padding: 3px;
+}
+
+label{
+  margin-bottom: 2px;
+}
